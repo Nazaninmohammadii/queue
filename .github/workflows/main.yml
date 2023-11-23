@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.queue@nazaninmohammadi.com
+        server: ftp.nazaninmohammadi.com
         username: queue@nazaninmohammadi.com
         password: ${{ secrets.ftp_password }}
         server-dir: queue.nazaninmohammadi.com/
