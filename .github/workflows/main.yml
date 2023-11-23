@@ -14,4 +14,4 @@ jobs:
         server: ftp.queue@nazaninmohammadi.com
         username: queue@nazaninmohammadi.com
         password: ${{ secrets.ftp_password }}
-        server-dir: queue.nazaninmohammadi.com
+        server-dir: queue.nazaninmohammadi.com/
