@@ -13,13 +13,13 @@
 
 <main>
 <div class="container">       
-    <section class="tickets-merch">
+    <div class="tickets-merch">
         <div class="row">
         <div class="tickets-merch__heading">
             <h1>Buy Tickets & <br> Merch</h1>
         </div>
 
-<!-- General Admission-->
+<!-- General Admission -->
      <div class="tickets-option">
              <div class="general-admission__ticket01">
                 <img src="img/ticket_01.svg" alt="">
@@ -34,7 +34,7 @@
     	            </li>
                 </ul>
             </div>
-            &nbsp;
+            <!-- &nbsp; -->
             <div class="general-admission__dates">
                 <ul class="list"> 
     	            <li class="list-items__week1">   
@@ -49,7 +49,7 @@
     	            </li>
                 </ul>        
             </div>
-            &nbsp;
+            <!-- &nbsp; -->
             <div class="list-items__content"> 
                 <ul class="list_02"> 
     	            <li class="list-items__venue">   
@@ -57,9 +57,10 @@
     	            </li>
                 </ul>  
             </div>
-            &nbsp;
+            <!-- &nbsp; -->
             <div class="quantity-container">
                 <p>Quantity</p>
+                <div class="quantity-container_grid">
                 <div class="quantity-container_images">
                     <img src="img/minus.png" width="18">
                     <img src="img/container.png" width="40">
@@ -68,6 +69,7 @@
                         <a href="#" class="buy-passes_button">Buy Passes</a>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div>
@@ -89,7 +91,7 @@
     	            </li>
                 </ul>
             </div>
-            &nbsp;
+            <!-- &nbsp; -->
             <div class="shuttle__dates">
                 <ul class="list"> 
     	            <li class="list-items__week1">   
@@ -104,7 +106,7 @@
     	            </li>
                 </ul>        
             </div>
-            &nbsp;
+            <!-- &nbsp; -->
             <div class="list-items__content"> 
                 <ul class="list_02"> 
     	            <li class="list-items__venue">   
@@ -112,9 +114,10 @@
     	            </li>
                 </ul>  
             </div>
-            &nbsp;
+            <!-- &nbsp; -->
             <div class="quantity-container">
                 <p>Quantity</p>
+                <div class="quantity-container_grid">
                 <div class="quantity-container_images">
                     <img src="img/minus.png" width="18">
                     <img src="img/container.png" width="40">
@@ -123,6 +126,7 @@
                         <a href="#" class="buy-passes_button">Buy Passes</a>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div>
@@ -143,7 +147,7 @@
     	            </li>
                 </ul>
             </div>
-            &nbsp;
+            <!-- &nbsp; -->
             <div class="VIP__dates">
                 <ul class="list"> 
     	            <li class="list-items__week1">   
@@ -158,7 +162,7 @@
     	            </li>
                 </ul>        
             </div>
-            &nbsp;
+            <!-- &nbsp; -->
             <div class="list-items__content"> 
                 <ul class="list_02"> 
     	            <li class="list-items__venue">   
@@ -166,9 +170,10 @@
     	            </li>
                 </ul>  
             </div>
-            &nbsp;
+            <!-- &nbsp; -->
             <div class="quantity-container">
                 <p>Quantity</p>
+                <div class="quantity-container_grid">
                 <div class="quantity-container_images">
                     <img src="img/minus.png" width="18">
                     <img src="img/container.png" width="40">
@@ -178,13 +183,14 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
     </div>
 
 
 
         </div>
-    </section>
+</div>
 </div>
 </main>
     

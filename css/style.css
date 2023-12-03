@@ -23,7 +23,6 @@
     --green: #00EF51;
     --gutter: 3.125vw 6.25vw;
     --border-radius: 50px;
-    --gutter: 6.25vw;
 }
 
 html,
@@ -97,7 +96,6 @@ nav ul li a {
 }
 
 /* Home Page */
-
 section.queue .queue-sound {
     flex-basis: 37.5vw;
     background: radial-gradient(circle, var(--grey), var(--white));
@@ -272,7 +270,7 @@ section.contact {
     background: radial-gradient(50% 50% at 50% 50%, #F93 0%, #EBA374 32.99%, #C1B8F9 100%);
     border-radius: var(--border-radius);
     padding: var(--gutter); 
-    /* height: 100vh; */
+    justify-content: center;
 }
 .contact-content {
     display: flex;
@@ -313,6 +311,14 @@ section.contact a:hover {
 
 
 /* TICKETS & MERCH */
+.container {
+    margin: auto;
+}
+.tickets-merch {
+    position: relative;
+    display: flex;
+    top: 100px;
+}
 .tickets-merch__heading h1 {
     display: flex;
     justify-content: center;
@@ -436,7 +442,10 @@ body {
     font-size: 23px;
 }
 section {
-    display: block;
+    /* display: block; */
+}
+.container {
+    /* min-width: 950px; */
 }
 
 /* TICKETS & MERCH */
@@ -463,4 +472,82 @@ section {
 
 
 
+@media screen and (min-width: 1024px) {
+body {
+    font-size: 25px;
+}
+.container {
+    padding: 20px;
+    /* max-width: 1100px; */
+}
+.tickets-merch {
+    display: unset;
+}
+.tickets-option {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 50px;
+    margin: 80px 0;
+    align-items: center;
+}
 
+/* General Admission */
+.general-admission__ticket01 {
+    grid-column: auto / span 6;
+    padding: unset;
+}
+.general-admission_info {
+    grid-column: 7 / span 7;
+    padding: unset;
+}
+.general-admission__dates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.quantity-container_grid {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.quantity-container_images {
+    grid-column: 2 / span 9;
+}
+.quantity-container p{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+/* General Admission + Shuttle */
+.shuttle__ticket02 {
+    grid-column: auto / span 6;
+    padding: unset;
+}
+.shuttle_info{
+    grid-column: 7 / span 7;
+    padding: unset;
+}
+.shuttle__dates{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* VIP */
+.VIP__ticket03 {
+    grid-column: auto / span 6;
+    padding: unset;
+}
+.VIP_info{
+    grid-column: 7 / span 7;
+    padding: unset;
+}
+.VIP__dates{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .container{
+        min-width: 1440px;
+        margin: auto;
+    }
+}

@@ -1,5 +1,5 @@
 <nav class="bg-black py-2">
-    <div class="max-w-7xl mx-auto px-8">
+    <div class="max-w-8xl mx-auto px-8">
         <div class="flex justify-between items-center">
 
             <!-- Left content (Desktop Logo) -->
