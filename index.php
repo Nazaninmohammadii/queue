@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>queue music festival</title>
+    <!-- <link href="/dist/output.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -11,70 +12,70 @@
 <body>
 <?php require ("partials/header.php");?>
 
-    <section id="about" class="about">
-        <div class="empty"></div>
-        <article>
-            <div class="title">
-                <h1>Hello I'm Izzy</h1>
+    <section class="queue">
+        <div class="queue-sound">
+            <div class="queue-sound__content">
+                <h5 class="topic">quantum</h5>
+                <p class="phrase">leap into</p>
+                <h1 class="main_title">sound</p>
             </div>
-            <div class="description">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae laborum atque quis fugiat nisi consectetur sint.</p>  
+        </div>
+        <article>
+            <div class="queue-invitation">
+                <div class="queue-invitation__content">
+                    <h5 class="main_title_02">decrypt the</h5>
+                    <p class="phrase_02">invitation</p>
+                </div>
+            </div>
+            <div class="queue-awaits">
+                <p>queue awaits</p>  
             </div>
         </article>
     </section>
 
-    <section id="services" class="service service-html sticky">
+
+
+
+    <section class="service service-html sticky">
+        <article>
+            <div class="audio-description">
+                <p>Embark on an audio odyssey like no other at queue, where the boundaries of reality dissolve into a pulsating realm of sonic enchantment. This avant-garde music festival transcends the ordinary, beckoning you to a realm where beats are more than just rhythms-they’re gateways to transcendence.</p>
+            </div> 
+            <figure class="image-container">
+                <img src="img/image_01.png" alt="Image Description"/>
+            <figcaption>
+                <h2 class="date">08.19.24</h2>
+                <p class="event">save the date</p>
+            </figcaption>
+            </figure>
+        </article>
+    </section>
+
+
+    <section class="service service-css sticky">
+        <article>
+            <figure class="cc">
+                <p>*lineup here</p>
+                <!-- <img src="img/image_01.png"/> -->
+            </figure>
+        </article>
+    </section>
+
+
+    <section class="service service-js sticky">
         <article>
             <figure>
-                <img src="img/diamond.png" width="200"/>
+                <img src="img/image_02.jpeg" />
             </figure>
-            <div class="text">
-            <h2>HTML</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi iste nulla, consectetur amet impedit libero quo fugiat sint.</p>
-            <a href="https://wikipedia.com">More about HTML</a>
+            <div class="limited-tickets">
+                <h4>Ready for queue? Save your spot on August 19, 2024. Limited Tickets. Click to be part of the experience.</h4>
             </div> 
         </article>
     </section>
 
+<?php require ("partials/footer.php");?>
 
-    <section id="services" class="service service-css sticky">
-        <article>
-            <figure>
-                <img src="img/triangle.png" width="200"/>
-            </figure>
-            <div class="text">
-            <h2>CSS</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi iste nulla, consectetur amet impedit libero quo fugiat sint. </p>
-            <a href="https://wikipedia.com">More about CSS</a>
-            </div>
-        </article>
-    </section>
-
-
-    <section id="services" class="service service-js sticky">
-        <article>
-            <figure>
-                <img class="animate__animated animate__rubberBand animate__infinite"
-                src="img/octagon.png" width="200"/>
-            </figure>
-            <div class="text">
-            <h2>JS</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi iste nulla, consectetur amet impedit libero quo fugiat sint.</p>
-            <a href="https://wikipedia.com">More about JS</a>
-            </div>
-        </article>
-    </section>
-
-    <section class="contact full-screen">
-        <a href="mailto:hello@gmail.com">hello@gmail.com</a>
-    </section>
-
-<?php require ("partials/header.php");?>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/animation.js"></script>
 
 
 </body>
-
 </html>
