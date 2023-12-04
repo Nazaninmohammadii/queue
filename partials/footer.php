@@ -1,4 +1,4 @@
-<section class="contact">
+<section class="contact service sticky">
     <div class="contact-content">
         <a href="mailto:hello@gmail.com">info@queueevent.com</a>
         <h5>(555) 123-4567</h5>

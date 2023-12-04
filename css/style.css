@@ -7,6 +7,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -19,6 +20,7 @@
     --lightgrey: #E0E0E0;
     --white: #FFFFFF;
     --yellow: #F6DD7C;
+    --dark-yellow: #FFCA00;
     --orange: #FF4E00;
     --green: #00EF51;
     --gutter: 3.125vw 6.25vw;
@@ -55,7 +57,7 @@ section {
 
 section.sticky {
     position: sticky;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 section.full-screen {
@@ -96,6 +98,10 @@ nav ul li a {
 }
 
 /* Home Page */
+.queue {
+    height: 30vh;
+}
+
 section.queue .queue-sound {
     flex-basis: 37.5vw;
     background: radial-gradient(circle, var(--grey), var(--white));
@@ -169,12 +175,34 @@ section.queue article .queue-awaits {
     color: var(--black);
 }
 
+/* countdown */
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.countdown ul {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 20px;
+}
+.countdown ul li {
+    text-align: center;
+    margin: 0 10px;
+    color: var(--dark-yellow);
+}
+.countdown li span {
+    display: block;
+}
 
 
 /* service section */
 
 section.service article {
-    display: flex;
+    /* display: flex; */
     width: 100%;
 }
 
@@ -188,15 +216,10 @@ section.service figure img {
     flex-basis: 56.25vw;
     margin: 0;
     width: 100%;
-    /* background: var(--green); */
+    height: 60vh;
     border-radius: var(--border-radius);
-    /* max-width: 62.5vw; */
-    /* transition: flex-basis 1s cubic-bezier(0,.9,.4,.99); */
 }
 
-/* section.service figure img {
-    width: 40%;
-} */
 
 section.service .audio-description {
     display: flex;
@@ -253,6 +276,7 @@ section.service .limited-tickets {
     flex-direction: column;
     justify-content: center;
     flex: 1;
+    height: 60vh;
     font-size: 27px;
     line-height: 40px;
     color: var(--black);
@@ -262,8 +286,6 @@ section.service .limited-tickets {
 }
 
 /* contact section */
-
-
 section.contact {
     text-align: center;
     font-weight: 900;
@@ -271,6 +293,7 @@ section.contact {
     border-radius: var(--border-radius);
     padding: var(--gutter); 
     justify-content: center;
+    height: 88vh;
 }
 .contact-content {
     display: flex;
@@ -313,6 +336,9 @@ section.contact a:hover {
 /* TICKETS & MERCH */
 .container {
     margin: auto;
+}
+.row {
+    padding-bottom: 150px;
 }
 .tickets-merch {
     position: relative;
@@ -422,6 +448,7 @@ section.contact a:hover {
 .VIP__ticket03 img {
     width: 370px;
 }
+
 
 
 
