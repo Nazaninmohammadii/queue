@@ -91,6 +91,9 @@
         <article>
             <div class="limited-tickets">
                 <h4>Ready for queue? Save your spot on August 19, 2024. Limited Tickets. Click to be part of the experience.</h4>
+            <div class="arrow">
+                <img src="img/arrow.png" width="200">
+            </div>
             </div> 
         </article>
     </section>

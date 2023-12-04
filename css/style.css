@@ -265,17 +265,11 @@ figcaption .event {
     font-size: 35px;
 }
 
-section.service .cc {
-    background-color: var(--yellow);
-    width: 100%;
-    border-radius: var(--border-radius);
-}
-
 section.service .limited-tickets {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
     height: 60vh;
     font-size: 27px;
     line-height: 40px;
@@ -283,6 +277,11 @@ section.service .limited-tickets {
     background: var(--lightgrey);
     padding: var(--gutter);
     border-radius: var(--border-radius);
+}
+
+.limited-tickets .arrow {
+    display: flex; 
+    align-self: flex-start; 
 }
 
 /* contact section */
