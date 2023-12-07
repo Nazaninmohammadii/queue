@@ -4,7 +4,7 @@
   "description": "Music Festival Website",
   "main": "tailwind.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx tailwindcss -i ./css/tailwind.css -o ./dist/tailwind.min.css --minify --watch"
   },
   "repository": {
     "type": "git",

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>queue music festival</title>
+    <link rel="stylesheet" href="dist/tailwind.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -16,7 +17,7 @@
     <div class="tickets-merch">
         <div class="row">
         <div class="tickets-merch__heading">
-            <h1>Buy Tickets & <br> Merch</h1>
+            <h1 class="text-xl">Buy Tickets & <br> Merch</h1>
         </div>
 
 <!-- General Admission -->
