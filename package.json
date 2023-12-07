@@ -1,0 +1,22 @@
+{
+  "name": "queue",
+  "version": "1.0.0",
+  "description": "Music Festival Website",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazaninmohammadii/queue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nazaninmohammadii/queue/issues"
+  },
+  "homepage": "https://github.com/Nazaninmohammadii/queue#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
