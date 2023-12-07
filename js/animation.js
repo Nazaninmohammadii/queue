@@ -1,6 +1,6 @@
 let emptyElement = document.querySelector(".queue .queue-sound");
 let titleElement = document.querySelector(".queue .queue-invitation");
-// let serviceElements = document.querySelectorAll(".service");
+// let serviceElements = document.querySelectorAll(".section-wrap");
 // let figureElements = document.querySelectorAll(".service figure");
 
 window.addEventListener('mousemove', handleMouseMove);
@@ -26,7 +26,6 @@ btn.addEventListener("click", () => {
 
 
 // countdown
-
 var daysE1 = document.getElementById('days');
 var hoursE1 = document.getElementById('hours');
 var minutesE1 = document.getElementById('minutes');

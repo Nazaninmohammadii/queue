@@ -200,7 +200,6 @@ section.queue article .queue-awaits {
 
 
 /* service section */
-
 section.service article {
     /* display: flex; */
     width: 100%;
@@ -470,8 +469,30 @@ body {
 section {
     /* display: block; */
 }
-.container {
-    /* min-width: 950px; */
+
+.section-wrap {
+    display: flex;
+}
+section.service .limited-tickets {
+    height: 20vh;
+}
+
+
+
+
+
+/* HOME PAGE */
+.queue {
+    height: 20vh;
+}
+.section-01_wrap {
+    display: flex;
+}
+section.service figure img {
+    height: unset;
+}
+.section-02_wrap {
+    display: flex;
 }
 
 /* TICKETS & MERCH */

@@ -46,7 +46,7 @@
         </div>
     </section>
 
-
+<!-- <div class="section-wrap"> -->
     <section class="service sticky">
         <article>
             <div class="audio-description">
@@ -58,7 +58,7 @@
     <section class="service sticky">
         <article>
             <figure class="image-container">
-                <img src="img/image_01.png" alt="Image Description"/>
+                <img src="img/image_01.png" alt="">
             <figcaption>
                 <h2 class="date">08.19.24</h2>
                 <p class="event">save the date</p>
@@ -66,18 +66,9 @@
             </figure>
         </article>
     </section>
+<!-- </div> -->
 
-
-    <!-- <section class="service service-css sticky">
-        <article>
-            <figure class="cc">
-                <p>*lineup here</p>
-                <img src="img/image_01.png"/>
-            </figure>
-        </article>
-    </section> -->
-
-
+<!-- <div class="section-wrap"> -->
     <section class="service sticky">
         <article>
             <figure>
@@ -97,6 +88,7 @@
             </div> 
         </article>
     </section>
+<!-- </div> -->
 
 <?php require ("partials/footer.php");?>
 
