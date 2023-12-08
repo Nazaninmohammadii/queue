@@ -285,18 +285,15 @@ figcaption .event {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 49px;
     font-weight: 800;
 }
 
 /* General Admission */
 .general-admission__ticket01 {
-    /* flex: 1; */
     display: flex;
     background: var(--pink);
     border-radius: var(--border-radius);
-    /* padding: var(--gutter); */
-    height: 240px;
+    height: 300px;
     justify-content: center;
     align-items: center;
     margin: 40px 0;
@@ -335,7 +332,7 @@ figcaption .event {
     padding-left: 10px;
 }
 
-.quantity-container_images {
+.quantity-container__images {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -360,7 +357,7 @@ figcaption .event {
     background: var(--orange);
     border-radius: var(--border-radius);
     padding: var(--gutter);
-    height: 240px;
+    height: 300px;
     justify-content: center;
     align-items: center;
     margin: 40px 0;
@@ -376,7 +373,7 @@ figcaption .event {
     background: var(--green);
     border-radius: var(--border-radius);
     padding: var(--gutter);
-    height: 240px;
+    height: 300px;
     justify-content: center;
     align-items: center;
     margin: 40px 0;
@@ -454,24 +451,49 @@ h6 {font-size: 35px}
 
 
 /* TICKETS & MERCH */
+.list-items__passes p {
+    font-size: 25px;
+    font-weight: 200;
+}
+
 .general-admission__ticket01 img {
-    width: unset;
+    width: 750px;
 }
+
 .shuttle__ticket02 img {
-    width: unset;
+    width: 750px;
 }
+
 .VIP__ticket03 img {
-    width: unset;
+    width: 750px;
 }
+
 .list-items__week1 span {
-    font-size: 15px;
+    font-size: 20px;
 }
-.list-items__week2 span {
-    font-size: 15px;
+
+.general-admission_info,
+.shuttle_info,
+.VIP_info {
+    padding: 0 20px;
 }
-.quantity-container p {
-    padding-left: unset;
+
+.general-admission__dates,
+.shuttle__dates,
+.VIP__dates {
+    justify-content: unset;
+    gap: 150px;
 }
+
+.list-items__venue p {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.button-container {
+    margin-left: 215px;
+}
+
 }
 
 
@@ -484,8 +506,7 @@ h1 {font-size: 90px;}
 h2 {font-size: 80px}
 h3 {font-size: 70px}
 h4 {font-size: 60px}
-h5 {font-size: 50px}
-h6 {font-size: 45px}
+/* h5 {font-size: 50px} */
 
 .container {
     max-width: 1100px;
@@ -499,61 +520,81 @@ h6 {font-size: 45px}
     font-size: 25px;
 }
 
-/* .tickets-merch {
+.tickets-merch {
     display: unset;
 }
 .tickets-option {
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    gap: 50px;
+    gap: 30px;
     margin: 80px 0;
     align-items: center;
 }
 
-General Admission
+/* General Admission */
 .general-admission__ticket01 {
     grid-column: auto / span 6;
-    padding: unset;
 }
+
+.general-admission__ticket01 img {
+    width: 450px;
+}
+
 .general-admission_info {
-    grid-column: 7 / span 7;
-    padding: unset;
+    grid-column: 7 / span 7;;
 }
+
 .general-admission__dates {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: unset;
 }
+
 .quantity-container_grid {
     display: grid;
     grid-template-columns: repeat(12,1fr);
 }
-.quantity-container_images {
+
+.quantity-container__images {
     grid-column: 2 / span 9;
 }
+
 .quantity-container p{
     font-size: 20px;
     margin-left: 40px;
 }
 
-General Admission + Shuttle
+.button-container {
+    margin-left: auto;
+}
+
+/* General Admission + Shuttle */
 .shuttle__ticket02 {
     grid-column: auto / span 6;
-    padding: unset;
 }
+
+.shuttle__ticket02 img {
+    width: 450px;
+}
+
 .shuttle_info{
     grid-column: 7 / span 7;
-    padding: unset;
 }
 .shuttle__dates{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: unset;
 }
 
-VIP
+/* VIP */
 .VIP__ticket03 {
     grid-column: auto / span 6;
-    padding: unset;
 }
+
+.VIP__ticket03 img {
+    width: 450px;
+}
+
 .VIP_info{
     grid-column: 7 / span 7;
     padding: unset;
@@ -561,8 +602,9 @@ VIP
 .VIP__dates{
     display: grid;
     grid-template-columns: 1fr 1fr;
-}  */
+} 
 }
+
 
 @media screen and (min-width: 1440px) {
 .container{

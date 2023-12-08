@@ -62,7 +62,7 @@
             <div class="quantity-container">
                 <p>Quantity</p>
                 <div class="quantity-container_grid">
-                <div class="quantity-container_images">
+                <div class="quantity-container__images">
                     <img src="img/minus.png" width="18">
                     <img src="img/container.png" width="40">
                     <img src="img/plus.png" width="18">
@@ -119,7 +119,7 @@
             <div class="quantity-container">
                 <p>Quantity</p>
                 <div class="quantity-container_grid">
-                <div class="quantity-container_images">
+                <div class="quantity-container__images">
                     <img src="img/minus.png" width="18">
                     <img src="img/container.png" width="40">
                     <img src="img/plus.png" width="18">
@@ -175,7 +175,7 @@
             <div class="quantity-container">
                 <p>Quantity</p>
                 <div class="quantity-container_grid">
-                <div class="quantity-container_images">
+                <div class="quantity-container__images">
                     <img src="img/minus.png" width="18">
                     <img src="img/container.png" width="40">
                     <img src="img/plus.png" width="18">

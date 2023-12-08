@@ -68,7 +68,7 @@
 <div class="section-wrap">
     <section class="service">
             <figure class="image-container">
-                <img src="img/image_02.jpg" />
+                <img src="img/image_02.jpeg" />
             </figure>
     </section>
 
