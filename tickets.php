@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>queue music festival</title>
-    <link rel="stylesheet" href="dist/tailwind.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -35,7 +35,7 @@
     	            </li>
                 </ul>
             </div>
-            <!-- &nbsp; -->
+
             <div class="general-admission__dates">
                 <ul class="list"> 
     	            <li class="list-items__week1">   
@@ -44,13 +44,13 @@
                     </li>
                 </ul>
                 <ul class="list"> 
-    	            <li class="list-items__week2">   
+    	            <li class="list-items__week1">   
                         <h6>Weekend 2</h6>
                         <h6>$399<span> + fees</span></h6> 
     	            </li>
                 </ul>        
             </div>
-            <!-- &nbsp; -->
+
             <div class="list-items__content"> 
                 <ul class="list_02"> 
     	            <li class="list-items__venue">   
@@ -58,7 +58,7 @@
     	            </li>
                 </ul>  
             </div>
-            <!-- &nbsp; -->
+
             <div class="quantity-container">
                 <p>Quantity</p>
                 <div class="quantity-container_grid">
@@ -92,7 +92,7 @@
     	            </li>
                 </ul>
             </div>
-            <!-- &nbsp; -->
+
             <div class="shuttle__dates">
                 <ul class="list"> 
     	            <li class="list-items__week1">   
@@ -101,13 +101,13 @@
                     </li>
                 </ul>
                 <ul class="list"> 
-    	            <li class="list-items__week2">   
+    	            <li class="list-items__week1">   
                         <h6>Weekend 2</h6>
                         <h6>$499<span> + fees</span></h6> 
     	            </li>
                 </ul>        
             </div>
-            <!-- &nbsp; -->
+
             <div class="list-items__content"> 
                 <ul class="list_02"> 
     	            <li class="list-items__venue">   
@@ -115,7 +115,7 @@
     	            </li>
                 </ul>  
             </div>
-            <!-- &nbsp; -->
+
             <div class="quantity-container">
                 <p>Quantity</p>
                 <div class="quantity-container_grid">
@@ -148,7 +148,7 @@
     	            </li>
                 </ul>
             </div>
-            <!-- &nbsp; -->
+
             <div class="VIP__dates">
                 <ul class="list"> 
     	            <li class="list-items__week1">   
@@ -157,13 +157,13 @@
                     </li>
                 </ul>
                 <ul class="list"> 
-    	            <li class="list-items__week2">   
+    	            <li class="list-items__week1">   
                         <h6>Weekend 2</h6>
                         <h6>$1000<span> + fees</span></h6> 
     	            </li>
                 </ul>        
             </div>
-            <!-- &nbsp; -->
+
             <div class="list-items__content"> 
                 <ul class="list_02"> 
     	            <li class="list-items__venue">   
@@ -171,7 +171,7 @@
     	            </li>
                 </ul>  
             </div>
-            <!-- &nbsp; -->
+
             <div class="quantity-container">
                 <p>Quantity</p>
                 <div class="quantity-container_grid">
