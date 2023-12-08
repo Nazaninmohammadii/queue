@@ -5,9 +5,6 @@
             <h5>(555) 123-4567</h5>
             <p>123 Celestial Avenue, Synth City, SQ 54321</p>
             <div class="social-media__icons">
-                <!-- <a class="bereal" href="#">
-                    <img src="img/bereal.png">
-                </a> -->
                 <a class="instagram" href="#">
                     <img src="img/instagram.png">
                 </a>
