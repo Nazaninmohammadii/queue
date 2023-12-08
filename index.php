@@ -12,6 +12,7 @@
 <body>
 <?php require ("partials/header.php");?>
 
+<div class="container">
     <section class="queue">
         <div class="queue-sound">
             <div class="queue-sound__content">
@@ -55,7 +56,7 @@
 
     <section class="service">
             <figure class="image-container">
-                <img src="img/image_01.png" alt="">
+                <img src="img/image_01.jpg" alt="">
             <figcaption>
                 <h2 class="date">08.19.24</h2>
                 <p class="event">save the date</p>
@@ -67,7 +68,7 @@
 <div class="section-wrap">
     <section class="service">
             <figure class="image-container">
-                <img src="img/image_02.jpeg" />
+                <img src="img/image_02.jpg" />
             </figure>
     </section>
 
@@ -83,7 +84,7 @@
             </div> 
     </section>
 </div>
-
+</div>
 <?php require ("partials/footer.php");?>
 <script src="js/countdown.js"></script>
 

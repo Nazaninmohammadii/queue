@@ -70,11 +70,15 @@ section.full-screen {
 
 /* Home Page */
 
-.queue .queue-sound {
-    flex-basis: 37.5vw;
+.queue-sound {
     background: radial-gradient(circle, var(--grey), var(--white));
-    border-radius: var(--border-radius);
-    transition: flex-basis 1s cubic-bezier(0,.9,.4,.99);
+}
+.queue-invitation{
+    background: var(--cyan);   
+}
+
+.queue-awaits {
+    background: var(--purple);
 }
 
 .queue-sound,
@@ -83,17 +87,14 @@ section.full-screen {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: var(--gutter);
+    border-radius: var(--border-radius);
+    color: var(--black);
 }
 
 .queue-sound__content {
-    text-align: center;
-    line-height: 3rem;
-    color: var(--black);
-}
-
-.queue-invitation__content {
-    text-align: center;
-    color: var(--black);
+    line-height: 5rem;
 }
 
 .topic {
@@ -127,25 +128,6 @@ section.full-screen {
     flex: 1;
     display: flex;
     flex-direction: column;
-}
-
-.queue article .queue-invitation{
-    flex: 1;
-    display: flex;
-    background: var(--cyan);
-    border-radius: var(--border-radius);
-    /* padding: var(--gutter); */
-    transition: flex-basis 1s cubic-bezier(0,.9,.4,.99);
-}
-
-.queue article .queue-awaits {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    background: var(--purple);
-    border-radius: var(--border-radius);
-    padding: var(--gutter);
-    color: var(--black);
 }
 
 /* countdown */
@@ -199,7 +181,6 @@ section.full-screen {
 .image-container {
     position: relative;
     width: 100%;
-    /* height: 100%; */
 }
 
 .image-container figcaption {
@@ -419,6 +400,10 @@ h4 {font-size: 50px}
 h5 {font-size: 40px}
 h6 {font-size: 35px}
 
+.container{
+    max-width: 1000px;
+}
+
 /* HOME PAGE */
 .phrase {
     font-size: 40px;
@@ -502,17 +487,19 @@ h4 {font-size: 60px}
 h5 {font-size: 50px}
 h6 {font-size: 45px}
 
+.container {
+    max-width: 1100px;
+}
+
 .countdown ul {
     font-size: 70px;
 }
-/* body {
+
+.nav-item {
     font-size: 25px;
 }
-.container {
-    padding: 20px;
-    max-width: 1100px;
-}
-.tickets-merch {
+
+/* .tickets-merch {
     display: unset;
 }
 .tickets-option {
@@ -574,12 +561,23 @@ VIP
 .VIP__dates{
     display: grid;
     grid-template-columns: 1fr 1fr;
-} */
+}  */
 }
 
 @media screen and (min-width: 1440px) {
-    .container{
-        min-width: 1440px;
-        margin: auto;
-    }
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+.audio-description p{
+    line-height: 4rem;
+    font-size: 35px;
+}
+.limited-tickets__content h4{
+    line-height: 4rem;
+    font-size: 60px;
+}
+.countdown ul {
+    font-size: 90px;
+}
 }
