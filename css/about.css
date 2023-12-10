@@ -1,0 +1,40 @@
+:root {
+    --border-radius: 100px;
+    --black: #000000;
+    --cyan: #A8FFDB;
+    --pink: #FFCBFC;
+    --purple: #6D61F9;
+    --grey: #8E8E8E;
+    --lightgrey: #E0E0E0;
+    --white: #FFFFFF;
+    --yellow: #F6DD7C;
+    --dark-yellow: #FFCA00;
+    --orange: #FF4E00;
+    --green: #00EF51;
+    --gutter: 3.125vw 6.25vw;
+    --border-radius: 50px;
+}
+
+.responsive img {
+    border: var(--border-radius); /* Adjust as needed */
+    margin: 0; /* Adjust as needed */
+    padding: 0; 
+    width: 425px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+
+}
+
+/* Desktop Large */
+@media screen and (min-width: 1440px) {
+
+}
