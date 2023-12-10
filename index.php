@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>queue music festival</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.svg">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lineup.css">
 </head>
 
 
@@ -57,6 +60,34 @@
             </div>
         </section>
 
+        <!-- Lineup Section -->
+        <section class="lineup-section">
+    <h2>2024 LINEUP</h2>
+
+    <div class="lineup-container">
+        <h3 class="weekend-1">weekend 1</h3>
+        <button class="small" data-artist-id="17">Bassdrop Bob</button>
+        <button class="large" data-artist-id="8">Beluga</button>
+        <button class="small" data-artist-id="16">Canal Tours</button>
+        <button class="large" data-artist-id="7">DJ Therapy</button>
+        <button class="medium" data-artist-id="12">Digital Phantom</button>
+        <button class="medium" data-artist-id="9">Glitch Mirage</button>
+        <button class="large" data-artist-id="15">Gótica</button>
+    </div>
+    <div class="lineup-container">
+        <h3 class="weekend-2">weekend 2</h3>
+        <button class="medium" data-artist-id="11">IGN</button>
+        <button class="small" data-artist-id="1">Morning Void</button>
+        <button class="medium" data-artist-id="10">Pulse Hacker</button>
+        <button class="large" data-artist-id="6">The 404</button>
+        <button class="medium" data-artist-id="2">Third Beach</button>
+        <button class="medium" data-artist-id="3">Rhythm Thief</button>
+        <button class="small" data-artist-id="4">Synth Spectre</button>
+        <button class="large" data-artist-id="13">User Persona</button>
+    </div>
+</section>
+
+
         <div class="section-wrap">
             <section class="service">
                 <div class="audio-description">
@@ -101,6 +132,7 @@
     </div>
     <?php require("partials/footer.php"); ?>
     <script src="js/countdown.js"></script>
+    <script src="js/lineup.js"></script>
 
 
 

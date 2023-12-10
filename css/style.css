@@ -7,7 +7,6 @@
 }
 
 :root {
-    --border-radius: 100px;
     --black: #000000;
     --cyan: #A8FFDB;
     --pink: #FFCBFC;
@@ -15,12 +14,12 @@
     --grey: #8E8E8E;
     --lightgrey: #E0E0E0;
     --white: #FFFFFF;
-    --yellow: #F6DD7C;
+    --yellow: #f5dd7d;
     --dark-yellow: #FFCA00;
     --orange: #FF4E00;
     --green: #00EF51;
     --gutter: 3.125vw 6.25vw;
-    --border-radius: 50px;
+    --border-radius: 75px;
 }
 
 html,
