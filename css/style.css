@@ -1,0 +1,624 @@
+@import url("https://use.typekit.net/tfy8nai.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black: #000000;
+    --cyan: #A8FFDB;
+    --pink: #FFCBFC;
+    --purple: #6D61F9;
+    --grey: #8E8E8E;
+    --lightgrey: #E0E0E0;
+    --white: #FFFFFF;
+    --yellow: #f5dd7d;
+    --dark-yellow: #FFCA00;
+    --orange: #FF4E00;
+    --green: #00EF51;
+    --gutter: 3.125vw 6.25vw;
+    --border-radius: 75px;
+}
+
+html,
+body {
+    min-height: 100vh;
+    padding: 0;
+    background: var(--black);
+    color: var(--white);
+    overflow-x: hidden;
+    
+}
+
+/* Typography */
+h1 {font-size: 70px;}
+h2 {font-size: 60px}
+h3 {font-size: 50px}
+h4 {font-size: 40px}
+h5 {font-size: 30px}
+h6 {font-size: 25px}
+p {margin-bottom: 0;}
+
+
+a { color: #ffffff;
+    text-decoration: none;}
+li {
+    list-style-type: none;
+}
+ul {
+    padding-left: 0;
+}
+
+
+section {
+    display: flex;
+    width: 100%;
+    top: 100px;
+    z-index: 0;
+}
+
+section.full-screen {
+    height: 100vh;
+    top: 0;
+    margin-top: 0;
+    z-index: 3;
+}
+
+
+/* Home Page */
+
+.queue-sound {
+    background: radial-gradient(circle, var(--grey), var(--white));
+}
+.queue-invitation{
+    background: var(--cyan);   
+}
+
+.queue-awaits {
+    background: var(--purple);
+}
+
+.queue-sound,
+.queue-invitation,
+.queue-awaits  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: var(--gutter);
+    border-radius: var(--border-radius);
+    color: var(--black);
+}
+
+.queue-sound__content {
+    line-height: 5rem;
+}
+
+.topic {
+    font-weight: 500;
+}
+
+.phrase {
+    font-weight: 100;
+    letter-spacing: 3.45px;
+    font-size: 15px;
+}
+
+.main_title_02 {
+    letter-spacing: -1.45px;
+    margin: 0;
+}
+
+.phrase_02 {
+    font-weight: 100;
+    font-size: 30px;
+    letter-spacing: -1.8px;
+}
+
+.queue-awaits p{
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: -1.4px;
+}
+
+.queue article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* countdown */
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countdown ul {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 20px;
+    padding: 0;
+}
+.countdown ul li {
+    text-align: center;
+    margin: 0 10px;
+    color: var(--dark-yellow);
+    font-weight: 300;
+}
+.countdown li span {
+    display: block;
+}
+.countdown p {
+    font-weight: 100;
+}
+
+/* service section */
+.service .audio-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--black);
+    background: var(--pink);
+    padding: 20px;
+    border-radius: var(--border-radius);
+}
+
+.service figure {
+    margin: 0;
+}
+
+.service figure img {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--black);
+}
+
+figcaption .date {
+    font-weight: 600;
+    margin: 0;
+}
+
+figcaption .event {
+    margin: 0;
+    font-size: 40px;
+}
+
+.limited-tickets {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    color: var(--black);
+    background: var(--lightgrey);
+    padding: var(--gutter);
+    border-radius: var(--border-radius);
+}
+.limited-tickets h4{
+    font-weight: 700;
+}
+.limited-tickets__content {
+    padding: 20px;
+    grid-column: auto / span 7;
+}
+
+.limited-tickets .arrow {
+   padding: 10px 10px 0 0;
+}
+
+/* contact section = Footer*/
+.contact {
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    background: radial-gradient(50% 50% at 50% 50%, #F93 0%, #EBA374 32.99%, #C1B8F9 100%);
+    border-radius: var(--border-radius);
+    padding: 40px;
+    color: var(--black);
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.contact a{
+    font-size: 31px;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.contact-content h5{
+    margin: 0;
+    font-weight: 700;
+}
+
+.contact-content p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.social-media__icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.social-media__icons img{
+    width: 20px;
+}
+
+
+
+
+/* TICKETS & MERCH */
+.container {
+    margin: auto;
+}
+/* .row {
+    padding-bottom: 150px;
+} */
+.tickets-merch {
+    display: block;
+    position: relative;
+}
+.tickets-merch__heading h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+}
+
+/* General Admission */
+.general-admission__ticket01 {
+    display: flex;
+    background: var(--pink);
+    border-radius: var(--border-radius);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.general-admission__ticket01 img {
+    width: 370px;
+    padding: 10px;
+}
+
+.general-admission__content {
+    margin-bottom: 30px;
+}
+
+.general-admission__dates,
+.shuttle__dates,
+.VIP__dates{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items__content ul li {
+    list-style: disc;
+}
+
+.list-items__week1 span{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.list_02 {
+    margin-left: 30px;
+}
+
+.quantity-container p{
+    padding-left: 10px;
+}
+
+.quantity-container__images {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.button-container {
+    display: flex;
+    margin-left: auto; 
+}
+
+.buy-passes_button {
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: 1px solid var(--white);
+    font-weight: bold;
+}
+
+/* General Admission + Shuttle */
+.shuttle__ticket02 {
+    display: flex;
+    background: var(--orange);
+    border-radius: var(--border-radius);
+    padding: var(--gutter);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.shuttle__ticket02 img {
+    width: 370px;
+    padding: 10px;
+}
+
+/* VIP */
+.VIP__ticket03 {
+    display: flex;
+    background: var(--green);
+    border-radius: var(--border-radius);
+    padding: var(--gutter);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.VIP__ticket03 img {
+    width: 370px;
+    padding: 10px;
+}
+
+
+
+
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+/* Typography */
+h1 {font-size: 80px;}
+h2 {font-size: 70px}
+h3 {font-size: 60px}
+h4 {font-size: 50px}
+h5 {font-size: 40px}
+h6 {font-size: 35px}
+
+.container{
+    max-width: 1000px;
+}
+
+/* HOME PAGE */
+.phrase {
+    font-size: 40px;
+}
+.phrase_02 {
+    font-size: 50px;
+}
+.queue-awaits p {
+    font-size: 60px;
+}
+.countdown ul {
+    font-size: 50px;
+}
+.section-wrap {
+    display: flex;
+}
+.limited-tickets {
+    grid-template-columns: repeat(12,1fr);
+    padding: 30px;
+}
+.limited-tickets h4{
+    font-size: 40px;
+}
+.limited-tickets__content {
+    margin: auto;
+    padding: unset;
+    grid-column: auto / span 10;
+}
+.limited-tickets .arrow {
+   padding: unset;
+   grid-column: 11 / span 12;
+}
+
+/* contact section = Footer*/
+.contact-content {
+    gap: 50px;
+}
+.contact a{
+    font-size: 50px;
+}
+.contact-content p {
+    font-size: 25px;
+    font-weight: unset;
+}
+.social-media__icons img{
+    width: 25px;
+}
+
+
+/* TICKETS & MERCH */
+.list-items__passes p {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.general-admission__ticket01 img {
+    width: 750px;
+}
+
+.shuttle__ticket02 img {
+    width: 750px;
+}
+
+.VIP__ticket03 img {
+    width: 750px;
+}
+
+.list-items__week1 span {
+    font-size: 20px;
+}
+
+.general-admission_info,
+.shuttle_info,
+.VIP_info {
+    padding: 0 20px;
+}
+
+.general-admission__dates,
+.shuttle__dates,
+.VIP__dates {
+    justify-content: unset;
+    gap: 150px;
+}
+
+.list-items__venue p {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.button-container {
+    margin-left: 215px;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+/* Typography */
+h1 {font-size: 90px;}
+h2 {font-size: 80px}
+h3 {font-size: 70px}
+h4 {font-size: 60px}
+/* h5 {font-size: 50px} */
+
+.container {
+    max-width: 1100px;
+}
+
+.countdown ul {
+    font-size: 70px;
+}
+
+.nav-item {
+    font-size: 25px;
+}
+
+.tickets-merch {
+    display: unset;
+}
+.tickets-option {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 30px;
+    margin: 80px 0;
+    align-items: center;
+}
+
+/* General Admission */
+.general-admission__ticket01 {
+    grid-column: auto / span 6;
+}
+
+.general-admission__ticket01 img {
+    width: 450px;
+}
+
+.general-admission_info {
+    grid-column: 7 / span 7;;
+}
+
+.general-admission__dates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: unset;
+}
+
+.quantity-container_grid {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+.quantity-container__images {
+    grid-column: 2 / span 9;
+}
+
+.quantity-container p{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.button-container {
+    margin-left: auto;
+}
+
+/* General Admission + Shuttle */
+.shuttle__ticket02 {
+    grid-column: auto / span 6;
+}
+
+.shuttle__ticket02 img {
+    width: 450px;
+}
+
+.shuttle_info{
+    grid-column: 7 / span 7;
+}
+.shuttle__dates{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: unset;
+}
+
+/* VIP */
+.VIP__ticket03 {
+    grid-column: auto / span 6;
+}
+
+.VIP__ticket03 img {
+    width: 450px;
+}
+
+.VIP_info{
+    grid-column: 7 / span 7;
+    padding: unset;
+}
+.VIP__dates{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} 
+}
+
+
+@media screen and (min-width: 1440px) {
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+.audio-description p{
+    line-height: 4rem;
+    font-size: 35px;
+}
+.limited-tickets__content h4{
+    line-height: 4rem;
+    font-size: 60px;
+}
+.countdown ul {
+    font-size: 90px;
+}
+}
