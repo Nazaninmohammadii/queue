@@ -189,8 +189,161 @@
     </div>
 
 
+<!-- Merch -->
+    <div class="merch-container">
+        <div class="merch_01">
+            <div class="merch_image_01">
+                <img src="img/merch_01.png">
+            </div>
 
+            <div class="merch_info">
+                <h5>Festival Hoodie</h5>
+
+                <div class="merch-sizes">
+                        <div class="merch-size_text">
+                            <p>SIZE</p>
+                        </div>
+                        <div class="sizes">
+                            <div class="size">
+                                <p>S</p>
+                            </div>
+                            <div class="size">
+                                <p>M</p>
+                            </div>
+                            <div class="size">
+                                <p>L</p>
+                            </div>
+                        </div>  
+                    </div>
+
+                <div class="merch_price">
+                    <h6>$49.99</h6>
+                </div>
+
+                <div class="add-merch">   
+                    <a href="#" class="add-merch_button">add to bag</a>
+                </div>
+            </div>    
         </div>
+
+
+        <div class="merch_02">
+            <div class="merch_image_02">
+                <img src="img/merch_02.png">
+            </div>
+
+            <div class="merch_info">
+                <h5>Festival Tee</h5>
+
+                <div class="size-color">
+                    <div class="merch-sizes">
+                        <div class="merch-size_text">
+                            <p>SIZE</p>
+                        </div>
+                        <div class="sizes">
+                            <div class="size">
+                                <p>S</p>
+                            </div>
+                            <div class="size">
+                                <p>M</p>
+                            </div>
+                            <div class="size">
+                                <p>L</p>
+                            </div>
+                        </div>  
+                    </div>
+
+                    <div class="merch-colors">
+                        <div class="merch-text">
+                            <p>COLOR</p>
+                        </div>
+                        <div class="colors">
+                            <div class="color_01"></div>
+                            <div class="color_02"></div>
+                            <div class="color_03"></div>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="merch_price">
+                    <h6>$29.99</h6>
+                </div>
+
+                <div class="add-merch">   
+                    <a href="#" class="add-merch_button">add to bag</a>
+                </div>
+            </div>    
+        </div>
+
+
+        <div class="merch_03">
+            <div class="merch_image_03">
+                <img src="img/merch_03.png">
+            </div>
+
+            <div class="merch_info">
+                <h5>Festival Tank</h5>
+                
+                <div class="merch-sizes">
+                        <div class="merch-size_text">
+                            <p>SIZE</p>
+                        </div>
+                        <div class="sizes">
+                            <div class="size">
+                                <p>S</p>
+                            </div>
+                            <div class="size">
+                                <p>M</p>
+                            </div>
+                            <div class="size">
+                                <p>L</p>
+                            </div>
+                        </div>  
+                    </div>
+
+                <div class="merch_price">
+                    <h6>$29.99</h6>
+                </div>
+
+                <div class="add-merch">   
+                    <a href="#" class="add-merch_button">add to bag</a>
+                </div>
+            </div>    
+        </div>
+
+
+        <div class="merch_04">
+            <div class="merch_image_04">
+                <img src="img/merch_04.png">
+            </div>
+
+            <div class="merch_info">
+                <h5>Festival Lighter</h5>
+
+                <div class="merch-colors">
+                    <div class="merch-text">
+                        <p>COLOR</p>
+                    </div>
+                    <div class="colors">
+                        <div class="color_04"></div>
+                        <div class="color_02"></div>
+                        <div class="color_03"></div>
+                    </div>  
+                </div>
+
+                <div class="merch_price">
+                    <h6>$8.99</h6>
+                </div>
+
+                <div class="add-merch">   
+                    <a href="#" class="add-merch_button">add to bag</a>
+                </div>
+            </div>    
+        </div>
+
+    </div>
+
+</div>
 </div>
 </div>
 </main>
