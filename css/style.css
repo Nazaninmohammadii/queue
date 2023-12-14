@@ -285,6 +285,10 @@ figcaption .event {
     width: 20px;
 }
 
+.bereal img{
+    width: 45px;
+}
+
 
 
 
@@ -608,9 +612,6 @@ h6 {font-size: 35px}
 .contact-content p {
     font-size: 25px;
     font-weight: unset;
-}
-.social-media__icons img{
-    width: 25px;
 }
 
 
