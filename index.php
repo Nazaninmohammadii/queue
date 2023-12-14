@@ -26,7 +26,7 @@
                     <h2 class="main_title">sound</h2>
                 </div>
             </div>
-            <article>
+            <article class="queue-invitation-bubbles">
                 <div class="queue-invitation">
                     <div class="queue-invitation__content">
                         <h5 class="main_title_02">decrypt the</h5>

@@ -69,6 +69,12 @@ section.full-screen {
 
 /* Home Page */
 
+.queue {
+    height: 550px; 
+    overflow: hidden; 
+    display: flex;
+}
+
 .queue-sound {
     background: radial-gradient(circle, var(--grey), var(--white));
 }
@@ -94,6 +100,19 @@ section.full-screen {
 
 .queue-sound__content {
     line-height: 5rem;
+}
+
+.queue-sound, .queue-invitation-bubbles {
+    flex: 1;
+}
+
+.queue-invitation-bubbles {
+    display: flex;
+    flex-direction: column;
+}
+
+.queue-invitation, .queue-awaits {
+    flex: 1;
 }
 
 .topic {
