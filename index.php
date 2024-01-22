@@ -134,9 +134,5 @@
     <script src="js/countdown.js"></script>
     <script src="js/lineup.js"></script>
     <script src="js/animation.js"></script>
-
-
-
 </body>
-
 </html>
